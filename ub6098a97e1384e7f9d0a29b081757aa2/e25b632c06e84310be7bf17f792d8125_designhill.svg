@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="288" height="225" viewBox="0 0 288 225">
+  <defs>
+    <filter id="Background" x="0" y="0" width="288" height="225" filterUnits="userSpaceOnUse">
+      <feOffset dy="14" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="20" result="blur"/>
+      <feFlood flood-opacity="0.078"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Designhill" transform="translate(60 46)">
+    <g transform="matrix(1, 0, 0, 1, -60, -46)" filter="url(#Background)">
+      <rect id="Background-2" data-name="Background" width="168" height="105" rx="5" transform="translate(60 46)" fill="#8bc442"/>
+    </g>
+    <g id="Assest" transform="translate(48 29)">
+      <path id="Path_158" data-name="Path 158" d="M-635.616-446.786h5.856v28.861a16.085,16.085,0,0,1-5.02,12.129c-3.764,3.765-7.529,5.02-12.547,5.02-4.6,0-8.785-1.255-12.13-5.02a16.089,16.089,0,0,1-5.02-12.129,16.756,16.756,0,0,1,5.02-12.13,16.754,16.754,0,0,1,12.13-5.019,17.174,17.174,0,0,1,11.711,4.6Zm0,28.861a11.678,11.678,0,0,0-3.346-8.365,11.675,11.675,0,0,0-8.365-3.347,11.676,11.676,0,0,0-8.366,3.347,11.678,11.678,0,0,0-3.346,8.365,11.682,11.682,0,0,0,3.346,8.365,11.676,11.676,0,0,0,8.366,3.346,11.675,11.675,0,0,0,8.365-3.346,12.437,12.437,0,0,0,3.346-8.365" transform="translate(664.477 446.786)" fill="#fff"/>
+      <path id="Path_159" data-name="Path 159" d="M-529.035-446.788h5.856v15.894a17.173,17.173,0,0,1,11.711-4.6,16.088,16.088,0,0,1,12.13,5.02,16.745,16.745,0,0,1,5.019,12.129v17.567h-5.855v-17.149a11.681,11.681,0,0,0-3.346-8.365,11.683,11.683,0,0,0-8.366-3.346,11.68,11.68,0,0,0-8.365,3.346,11.681,11.681,0,0,0-3.345,8.365v17.149h-5.438Z" transform="translate(566.681 446.788)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
